@@ -14,7 +14,8 @@
     "bundle": "rollup -c",
     "lint": "eslint . --ext .ts --ext .mts",
     "test": "vitest --run --coverage",
-    "prettier": "prettier --config .prettierrc --write ."
+    "prettier": "prettier --config .prettierrc --write .",
+    "prettier:check": "prettier --config .prettierrc --check ."
   },
   "repository": {
     "type": "git",
