@@ -2,10 +2,7 @@
   "compilerOptions": {
     "target": "ES2022",
     "module": "Node16",
-    "lib": [
-      "ES2022",
-      "DOM"
-    ],
+    "lib": ["ES2022", "DOM"],
     "moduleResolution": "Node16",
     "rootDir": ".",
     "outDir": "dist",
@@ -22,8 +19,5 @@
     "noImplicitThis": false,
     "strictNullChecks": false
   },
-  "include": [
-    "src/**/*",
-    "__tests__/**/*"
-  ]
+  "include": ["src/**/*", "__tests__/**/*"]
 }
